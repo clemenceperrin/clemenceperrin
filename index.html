@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prénom Nom — PhD Candidate</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       COLONNE GAUCHE — Profil
+  ════════════════════════════════════════════ -->
+  <aside class="sidebar">
+
+    <div class="profile">
+      <img src="assets/images/profile.png" alt="Photo de profil" class="avatar" />
+      <h1 class="name">Prénom Nom</h1>
+      <p class="title">PhD Candidate</p>
+      <p class="affiliation">Mines Paris · PSL<br/>SunMind – Vinci Concessions</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#cv">CV</a>
+    </nav>
+
+    <div class="contact">
+      <a href="mailto:prenom.nom@institution.fr" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+        prenom.nom@institution.fr
+      </a>
+      <a href="https://linkedin.com/in/votre-profil" class="contact-link" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://scholar.google.com" class="contact-link" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+        Google Scholar
+      </a>
+    </div>
+
+  </aside>
+
+  <!-- ═══════════════════════════════════════════
+       CONTENU PRINCIPAL
+  ════════════════════════════════════════════ -->
+  <main class="content">
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p>
+        Je suis doctorante en deuxième année à <strong>Mines Paris – PSL</strong> et chez <strong>SunMind (Vinci Concessions)</strong>, 
+        spécialisée dans l'optimisation des systèmes photovoltaïques (PV) et de stockage par batteries (BESS).
+      </p>
+      <p>
+        Mes recherches portent sur [décrivez vos axes de recherche en 2–3 phrases]. 
+        Je m'intéresse particulièrement à [thème 1] et [thème 2].
+      </p>
+
+      <!-- Mots-clés de recherche -->
+      <div class="tags">
+        <span class="tag">Optimization</span>
+        <span class="tag">Photovoltaics</span>
+        <span class="tag">Battery Storage</span>
+        <span class="tag">Energy Systems</span>
+        <span class="tag">Machine Learning</span>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <h2 class="section-title">Publications</h2>
+
+      <!-- Article 1 -->
+      <article class="pub">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+          <p class="pub-title">Titre de votre article ou conférence</p>
+          <p class="pub-authors"><strong>Prénom Nom</strong>, Co-Auteur A, Co-Auteur B</p>
+          <p class="pub-venue"><em>Journal ou Conférence</em>, vol. X, pp. XX–XX, 2024.</p>
+          <div class="pub-links">
+            <a href="#" class="pub-link">PDF</a>
+            <a href="#" class="pub-link">DOI</a>
+            <a href="#" class="pub-link">Slides</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Article 2 -->
+      <article class="pub">
+        <div class="pub-year">2023</div>
+        <div class="pub-body">
+          <p class="pub-title">Titre d'un deuxième article ou communication</p>
+          <p class="pub-authors"><strong>Prénom Nom</strong>, Co-Auteur C</p>
+          <p class="pub-venue"><em>Nom de la conférence</em>, Ville, 2023.</p>
+          <div class="pub-links">
+            <a href="#" class="pub-link">PDF</a>
+            <a href="#" class="pub-link">Poster</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Ajoutez vos publications en dupliquant le bloc <article class="pub"> ci-dessus -->
+
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section">
+      <h2 class="section-title">CV</h2>
+
+      <!-- Education -->
+      <div class="cv-block">
+        <h3 class="cv-category">Education</h3>
+
+        <div class="cv-item">
+          <div class="cv-date">2022 – présent</div>
+          <div class="cv-detail">
+            <p class="cv-role">PhD in [votre discipline]</p>
+            <p class="cv-place">Mines Paris – PSL & SunMind, Vinci Concessions</p>
+            <p class="cv-desc">Sujet : <em>Optimization of PV and BESS systems</em></p>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2020 – 2022</div>
+          <div class="cv-detail">
+            <p class="cv-role">Diplôme d'ingénieur / Master</p>
+            <p class="cv-place">Nom de l'école ou université</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Experience -->
+      <div class="cv-block">
+        <h3 class="cv-category">Experience</h3>
+
+        <div class="cv-item">
+          <div class="cv-date">2022 – présent</div>
+          <div class="cv-detail">
+            <p class="cv-role">PhD Candidate & Research Engineer</p>
+            <p class="cv-place">SunMind – Vinci Concessions</p>
+            <p class="cv-desc">Description courte du poste et des responsabilités.</p>
+          </div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2021</div>
+          <div class="cv-detail">
+            <p class="cv-role">Stage de recherche / Internship</p>
+            <p class="cv-place">Nom de l'entreprise ou du laboratoire</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Download CV -->
+      <a href="assets/cv.pdf" class="cv-download" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Télécharger le CV complet (PDF)
+      </a>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
