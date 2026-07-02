@@ -208,12 +208,25 @@ p:last-child { margin-bottom: 0; }
    PUBLICATIONS
 ════════════════════════════════════════════════ */
 .pub {
-  display: flex;
-  gap: 1.25rem;
-  margin-bottom: 1.75rem;
-  padding-bottom: 1.75rem;
-  border-bottom: 1px solid var(--border);
+  flex-direction: column;
+  gap: 0.4rem;
 }
+
+/* Photos plus petites côte à côte */
+.pub-photos {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+}
+
+.pub-photos img {
+  width: 180px;        /* ← ajuste cette valeur à ta convenance */
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
 .pub:last-child { border-bottom: none; margin-bottom: 0; }
 
 .pub-year {
